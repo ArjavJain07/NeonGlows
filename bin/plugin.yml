@@ -1,0 +1,10 @@
+name: NeonGlows
+version: 1.0
+main: NeonGlows.NeonGlow
+api-version: 1.21.1
+author: Neon Studios
+website: https://builtbybit.com/creators/neon-studios.333551
+commands:
+  glow:
+    description: Toggle glowing effect with color
+    usage: /glow <color|off>

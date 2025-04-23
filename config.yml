@@ -1,0 +1,37 @@
+# NeonGlow Configuration
+# Version: 1.0
+
+# Should glow be enabled by default for players?
+glow-enabled-by-default: false
+
+# Default glow color when first enabled
+default-color: "yellow"
+
+# List of allowed colors for glowing
+allowed-colors:
+  - "red"
+  - "gold"
+  - "yellow"
+  - "green"
+  - "aqua"
+  - "blue"
+  - "light_purple"
+  - "rainbow"  # Animated rainbow effect
+
+# Permission required to use glow (will be overridden for individual colors)
+permission-node: "neonglow.use"
+
+# Per-color permissions (you can assign ranks for each glow color)
+color-permissions:
+  red: "neonglow.red"
+  gold: "neonglow.gold"
+  yellow: "neonglow.yellow"
+  green: "neonglow.green"
+  aqua: "neonglow.aqua"
+  blue: "neonglow.blue"
+  light_purple: "neonglow.light_purple"
+  rainbow: "neonglow.rainbow"
+
+# Cooldown between color changes (in seconds)
+# This bypasses the timer "neonglow.bypasscooldown"
+cooldown-seconds: 120
